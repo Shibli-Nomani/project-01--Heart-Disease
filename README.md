@@ -12,12 +12,11 @@ https://github.com/Shibli-Nomani/project-03-CNN-Street-View-Housing-Number-Recog
 # 😉 About Dataset
 https://www.kaggle.com/datasets/shiblinomani/housenodigits
 
-1. Data Preprocessing and EDA to prepare the dataset of HeartDisease.
-2. Data Preprocessing and EDA of HeartDisease.csv.
-3. ML models evaluated with SMOTETomek Oversampling, with and without Hyperparameter Tuning. We performed GridssearchCV to find the hyperparameter of different models in different notebook.
-4. Applying Logistic Regression, SVMLinear, SGDClassifier, K-Nearest Neighbors, Random Forest Classifier, Decision Tree Classifier, GradientBoosting, XGBOOST, ADABoost.
-5. Comparing different model performances based on Training Accuracy, Testing Accuracy, Precision, Recall, F1-Score, and AUC Score.
-
+1. Data preprocessing and EDA to prepare the dataset for Heart Disease.
+2. Applying SMOTETomek Oversampling. GridSearchCV was performed to find the best hyperparameters for different models in separate notebooks.
+3. Applying Logistic Regression, SVM (Linear), SGDClassifier, K-Nearest Neighbors, Random Forest Classifier, Decision Tree Classifier, Gradient Boosting, XGBOOST and ADABoost with/without hyperparameter tuning.
+4. Comparing different model performances based on training accuracy, testing accuracy, precision, recall, F1-Score and AUC score.
+   
 # 🎢 Summary 
 We have created customized model for the Recognizing Street View Housing Number over Gray Image using the SVHN_single_grey1.h5 file. Model accuracy is **95.248% for training and 93.794% for testing**.
 
