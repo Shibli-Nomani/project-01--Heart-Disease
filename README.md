@@ -1,11 +1,3 @@
-Some basic Git commands are:
-```
-git status
-git add
-git commit
-git commit -m "Initial commit" 
-git push origin master 
-
 
 Project-01--Heart-Disease
 1. Data Preprocessing, EDA to prepared the Dataset of HeartDisease
