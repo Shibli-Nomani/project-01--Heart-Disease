@@ -6,11 +6,11 @@
 ![heart-disease](https://github.com/user-attachments/assets/426d47a3-659e-473e-80bf-402a384703db)
 
 # 👇 Kaggle code Link :
-[https://www.kaggle.com/code/shiblinomani/project-02-global-laptop-selling-regression-ml](https://www.kaggle.com/code/shiblinomani/project-cnn-street-view-housing-number-recognizing)
+https://www.kaggle.com/code/shiblinomani/project-01-heart-disease-prediction
 # 👇 Github Link :
-https://github.com/Shibli-Nomani/project-03-CNN-Street-View-Housing-Number-Recognizing/blob/main/project-cnn-street-view-housing-number-recognizing.ipynb
+https://github.com/Shibli-Nomani/project-01--Heart-Disease/blob/main/project-01-heart-disease-prediction-supervised-ml-regression.ipynb
 # 😉 About Dataset
-https://www.kaggle.com/datasets/shiblinomani/housenodigits
+https://www.kaggle.com/datasets/shiblinomani/heart-disease-dataset/data
 
 1. Data preprocessing and EDA to prepare the dataset for Heart Disease.
 2. Applying SMOTETomek Oversampling. GridSearchCV was performed to find the best hyperparameters for different models in separate notebooks.
@@ -18,9 +18,7 @@ https://www.kaggle.com/datasets/shiblinomani/housenodigits
 4. Comparing different model performances based on training accuracy, testing accuracy, precision, recall, F1-Score and AUC score.
    
 # 🎢 Summary 
-We have created customized model for the Recognizing Street View Housing Number over Gray Image using the SVHN_single_grey1.h5 file. Model accuracy is **95.248% for training and 93.794% for testing**.
-
-By working on with layers/normalization/ image Data Genaration, we can improve the accuracy and drop down the loss.
+The Heart Disease Prediction models were evaluated on several key metrics, with **RandomForest** delivering the best train accuracy of **99.687%**, test accuracy of 92.075%, and a strong F1 Score of 0.921. **The GradientBoost model demonstrated excellent performance, with a train accuracy of 99.352% and highest test accuracy of 93.201%, alongside an AUC of 98.084% and a 0.932 F1 Score.** DecisionTree also showed strong results with an F1 Score of 0.891. In contrast, models like SVMLinear and Logistic Regression exhibited lower performance across accuracy, F1 Score, and AUC metrics, highlighting the superiority of ensemble methods like RandomForest and GradientBoost for heart disease prediction.
 
 ## Authors
 
